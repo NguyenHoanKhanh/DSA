@@ -80,7 +80,7 @@ int countDistinctIds(vector<Node*>& hash_table, int N)
 int main()
 {
     int N;
-    cout << "Nhap vao so luong id can check : ";
+    cout << "Nhap vao so luong id : ";
     cin >> N;
 
     vector<Node*> hash_table(N, nullptr);
